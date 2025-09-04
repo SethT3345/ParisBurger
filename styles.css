@@ -1,0 +1,102 @@
+#topperay{
+    width: 100vw;
+    height: 115px;
+    background-color: rgb(239, 169, 7);
+    margin-top: -10px;
+    margin-left: -8px;
+    min-width: 732px;
+}
+#logo{
+    width: 200px;
+    height: auto;
+    margin: 17px;
+    margin-left: 50px;
+}
+.opts{
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#hp1{
+    background-image: url("/images/hp1.jpg");
+    width: 100vw;
+    height: 600px;
+    background-size: cover;
+    margin-left: -8px;
+    min-width: 732px;
+    padding: 1px;
+}
+#tb1{
+    height: auto;
+    width: 450px;
+    background-color: #ffffff;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    font-size: 50px;
+    margin-left: 50vw;
+    margin-top: 50vh;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+}
+.titlee{
+    margin-left: 10%;
+    margin-top: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 50px;
+}
+.paraa{
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+#bone{
+    width: 75%;
+    min-width: 570px;
+    margin-left: 10%;
+    padding-left: 0px;
+}
+.contain{
+    display: flex;
+}
+.ime{
+    width: 25%;
+    object-fit: cover;
+    margin-left:7%;
+    margin-top: 50px;
+}
+.capt{
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left:9%;
+    margin-bottom: 50px;
+}
+#cap2{
+    margin-left: 14%;
+}
+#cap3{
+    margin-left: 14%;
+}
+#sec2{
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    background-color: #d7dde7;
+    margin-left: -8px;
+}
+#t2{
+
+}
