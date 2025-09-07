@@ -60,7 +60,7 @@
     font-style: normal;
     font-size: 30px;
 }
-#bone{
+.bone{
     width: 75%;
     min-width: 570px;
     margin-left: 10%;
@@ -93,10 +93,59 @@
 #sec2{
     display: flex;
     width: 100vw;
-    height: 50vh;
+    height: 70vh;
     background-color: #d7dde7;
     margin-left: -8px;
+    flex-direction: column;
 }
 #t2{
-
+    margin-top: 50px;
+}
+.ime2{
+    width: 15%;
+    object-fit: cover;
+    margin-left:3%;
+    margin-top: 50px;
+}
+#fourimei, #onewc{
+    margin-left: 15%;
+}
+.whtcapt{
+    width: 15%;
+    object-fit: cover;
+    margin-left:3%;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: -5px;
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#sec3contain{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.ime3{
+    width: 20%;
+    object-fit: cover;
+    margin-left:7%;
+    margin-top: 50px;
+}
+#cap12{
+    margin-left: 5vw;
+}
+#cap13{
+    display: flex;
+    margin-left: 220px;
+}
+.capt3{
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 9%;
+    margin-bottom: 50px;
 }
