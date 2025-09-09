@@ -172,3 +172,68 @@
 #bdr{
    margin-left: 45vw;
 }
+#bphead{
+    background-image: url("/images/bp1.jpg");
+    width: 100vw;
+    height: 600px;
+    background-size: cover;
+    margin-left: -8px;
+    min-width: 732px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#bphtitle{
+    justify-content: center;
+    font-size: 30px;
+    background-color: #ffffff;
+    padding: 5px;
+    width: fit-content;
+    height: 80px;
+    margin-bottom: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 70px;
+}
+#secone{
+    width: 100vw;
+    height: 280px;
+    background-color: #d5d5d5;
+    margin-left: -8px;
+    min-width: 732px;
+    margin-top: -22px;
+    display: flex;
+    flex-direction: column;
+}
+#titlerp{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 150px;
+    margin-top: 30px;
+    font-size: 50px;
+}
+.timecap{
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    margin-left: 10%;
+    margin-top: -20px;
+}
+.containrow{
+    display: flex;
+    flex-direction: row;
+}
+.timecaptwo{
+    margin-top: -20px;
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+    margin-right: 100px;
+}
