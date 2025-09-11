@@ -23,7 +23,7 @@
     font-style: normal;
 }
 #hp1{
-    background-image: url("/images/hp1.jpg");
+    background-image: url("../images/hp1.jpg");
     width: 100vw;
     height: 600px;
     background-size: cover;
@@ -173,7 +173,7 @@
    margin-left: 45vw;
 }
 #bphead{
-    background-image: url("/images/bp1.jpg");
+    background-image: url("../images/bp1.jpg");
     width: 100vw;
     height: 600px;
     background-size: cover;
