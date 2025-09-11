@@ -12,11 +12,11 @@
 </head>
 <body>
     <div id="topperay">
-        <img src="images/ryparis-logo.png" id="logo">
+        <img src="images/ryparis-logo.png" id="logo" onclick="hp()">
         <a class="opts" href="#">Meal Ideas</a>
         <a class="opts" href="#">Catagories</a>
         <a class="opts" href="#">Whats New</a>
-        <a class="opts" href="#">Popular Recipes</a>
+        <a class="opts" href="#" onclick="rp()">Popular Recipes</a>
     </div>
     <div id="hp1">
         <div id="tb1">Start The Week Off Right</div>
@@ -89,5 +89,13 @@
         <a class="opts" href="#">Site</a>
         <a class="opts" href="#">Map</a>
     </div>
+    <script>
+        function hp(){
+            window.location.href = "index.html";
+        }
+        function rp(){
+            window.location.href = "recipe.html";
+        }
+    </script>
 </body>
 </html>
