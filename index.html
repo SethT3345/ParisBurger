@@ -3,19 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ParisBurger</title>
+    <title>Ry Paris Homepage</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Noto+Sans+Duployan:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Noto+Sans+Duployan:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="topperay">
-        <img src="ryparis-logo.png" id="logo">
-        <a class="opts" href="#">Popular Recipes</a>
-        <a class="opts" href="#">What's New</a>
-        <a class="opts" href="#">Catagories</a>
+        <img src="images/ryparis-logo.png" id="logo" onclick="hp()">
         <a class="opts" href="#">Meal Ideas</a>
+        <a class="opts" href="#">Catagories</a>
+        <a class="opts" href="#">Whats New</a>
+        <a class="opts" href="#" onclick="rp()">Popular Recipes</a>
     </div>
+    <div id="hp1">
+        <div id="tb1">Start The Week Off Right</div>
+    </div>
+    <h1 class="titlee">Everyday Catagories</h1>
+    <div class="bone">
+        <p1 class="paraa">Everyday Food has developed recipes with the home cook in mind. These delicious dishes featured
+        on "RY Paris" call for simple ingredients that you already have in your pantry or can easily find at
+        local grocery stores and farmers' markets.</p1>
+        <div class="contain">
+            <img class="ime" src="images/EC1.jpg">
+            <img class="ime" src="images/EC2.jpg">
+            <img class="ime" src="images/EC3.jpg">
+        </div>
+        <div class="contain">
+            <p1 class="capt">Breakfest Most Important Meal</p1>
+            <p1 class="capt" id="cap2">Vegaterian Lunch Ideas</p1>
+            <p1 class="capt" id="cap3">Cold Weather Weeknight Ideas</p1>
+        </div>
+    </div>
+    <div id="sec2">
+        <h1 class="titlee" id="t2">Healthy Recipes Of The Week</h1>
+        <div class="bone">
+        <p1 class="paraa">This weeks top award winners to critically-acclaimed recipe gems, check out these original recipes
+        from home cook and professional chefs around the country.</p1>
+        </div>
+        <div class="contain">
+            <img class="ime2" id="fourimei" src="images/hp1.jpg">
+            <img class="ime2" src="images/hp2.jpeg">
+            <img class="ime2" src="images/hp3.jpeg">
+            <img class="ime2" src="images/hp4.jpeg">
+        </div>
+        <div class="contain">
+            <h1 class="whtcapt" id="onewc">Fajita-Stuffed Peppers</h1>
+            <h1 class="whtcapt">Ree's Breakfast Muffins</h1>
+            <h1 class="whtcapt">Eggplant Parmesan</h1>
+            <h1 class="whtcapt">Teriyaki Chicken Thighs</h1>
+        </div>
+    </div>
+    <h1 class="titlee">Where to Eat</h1>
+    <div class="bone">
+        <p1 class="paraa">This is not the aspirational fluff of Instagram wall
+             neon; it's fact. Recent surveys have shown that a majority of travelers
+              consider food first when planning a trip, even ahead of where they sleep.
+               Add to this that people are also traveling more than ever before - earthlings
+                logged a record-breaking 1.4 billion international trips last year - and it's 
+                safe to say that the hunger for new culinary experiences
+                is more ravenous than ever.<br><br>
+            While the endlessly alluring bistros of Paris, izakayas of Tokyo, shawarma stands of Tel Aviv
+            , and tasting menus of Mexico City will always top many people's lists of cravings,
+             we're continually on the
+            lookout for something new to fill our bellies, our passports, and our feeds.</p1>
+        <div class="contain">
+            <img class="ime" src="images/wte1.jpeg">
+            <img class="ime" src="images/wte2.jpeg">
+            <img class="ime" src="images/wte3.jpeg">
+        </div>
+        <div class="contain">
+            <p1 class="capt">Best Sandwiches in America</p1>
+            <p1 class="capt" id="cap2">50 States of Pizza Slices</p1>
+            <p1 class="capt" id="cap13">City Guides</p1>
+        </div>
+    </div>
+    <div id="bottomay">
+        <a class="opts2" href="#">© 2020 RY PARIS</a>
+        <a class="opts" href="#">Help</a>
+        <a class="opts" href="#">Advertise</a>
+        <a class="opts" href="#">About</a>
+        <a class="opts" href="#">Privacy Policy</a>
+        <a class="opts" href="#">Site</a>
+        <a class="opts" href="#">Map</a>
+    </div>
+    <script>
+        function hp(){
+            window.location.href = "index.html";
+        }
+        function rp(){
+            window.location.href = "recipe.html";
+        }
+    </script>
 </body>
 </html>
